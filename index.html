@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🔐 Hacker Toolkit by trhacknon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Share Tech Mono', monospace;
+      background-color: #0f0f0f;
+      color: #00ffcc;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    header {
+      background: linear-gradient(90deg, #00ffcc, #007777);
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+      text-shadow: 0 0 5px #00ffcc;
+    }
+    h2 {
+      color: #00ffaa;
+      border-left: 5px solid #00ffaa;
+      padding-left: 10px;
+      margin-top: 2rem;
+    }
+    table {
+      width: 95%;
+      margin: 1rem auto;
+      border-collapse: collapse;
+      background: #111;
+      box-shadow: 0 0 10px #00ffcc55;
+    }
+    th, td {
+      border: 1px solid #00ffcc33;
+      padding: 10px;
+    }
+    th {
+      background: #00ffcc11;
+      text-shadow: 0 0 2px #00ffcc;
+    }
+    td a {
+      color: #00ffcc;
+    }
+    .section {
+      padding: 1rem;
+      margin-bottom: 2rem;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    .ascii {
+      white-space: pre-wrap;
+      color: #00ffaa;
+      padding: 2rem 1rem;
+      font-size: 0.85rem;
+      background: #101010;
+      border: 1px dashed #00ffaa44;
+      margin: 1rem;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #00ffcc66;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(10px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    .btn {
+      display: inline-block;
+      background: #00ffaa33;
+      padding: 0.5rem 1rem;
+      border: 1px solid #00ffaa88;
+      margin: 1rem;
+      cursor: pointer;
+      color: #00ffaa;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #00ffaa66;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🧠 Hacker Toolkit & Distros - by <strong>trhacknon</strong>
+  </header>
+
+  <div class="section">
+    <h2>🔐 1. Distributions orientées Pentest / Hacking</h2>
+    <table>
+      <tr><th>Distribution</th><th>Description</th><th>ISO</th></tr>
+      <tr><td>Kali Linux</td><td>Référence du pentest, nombreux outils</td><td>✅</td></tr>
+      <tr><td>Tsurugi Linux</td><td>OS forensic/pentest avec interface clean</td><td>✅</td></tr>
+      <tr><td>Parrot OS</td><td>Alternative Kali, + légère, Anonsurf intégré</td><td><a href="https://www.parrotsec.org/download/">ISO</a></td></tr>
+      <tr><td>BlackArch</td><td>Pro, +2800 outils</td><td><a href="https://blackarch.org/downloads.html">ISO</a></td></tr>
+      <tr><td>CAINE</td><td>Forensic complet</td><td><a href="https://www.caine-live.net/page5/page5.html">ISO</a></td></tr>
+      <tr><td>DEFT</td><td>Ancien forensic, outils anciens</td><td><a href="http://www.deftlinux.net/">ISO</a></td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>🧰 2. Outils de récupération & réparation</h2>
+    <table>
+      <tr><th>Outil</th><th>Description</th><th>ISO</th></tr>
+      <tr><td>Rescatux</td><td>Répare Grub, MBR, etc.</td><td><a href="https://www.supergrubdisk.org/rescatux/">ISO</a></td></tr>
+      <tr><td>SystemRescue</td><td>Diag Linux/Windows</td><td><a href="https://www.system-rescue.org/Download/">ISO</a></td></tr>
+      <tr><td>Hiren’s Boot PE</td><td>Outils Windows</td><td><a href="https://www.hirensbootcd.org/download/">ISO</a></td></tr>
+      <tr><td>GParted Live</td><td>Partitionnement</td><td><a href="https://gparted.org/livecd.php">ISO</a></td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>🔎 3. Distros anonymat / vie privée</h2>
+    <table>
+      <tr><th>Distribution</th><th>Description</th><th>ISO</th></tr>
+      <tr><td>Tails</td><td>Navigation anonyme fiable</td><td><a href="https://tails.net/">ISO</a></td></tr>
+      <tr><td>Whonix</td><td>Basé Tor, extrême sécu</td><td><a href="https://www.whonix.org/wiki/Download">ISO</a></td></tr>
+      <tr><td>Kodachi</td><td>Debian + VPN + DNSCrypt</td><td><a href="https://www.digi77.com/linux-kodachi/">ISO</a></td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>🧠 4. Enseignement / Lab / CTF</h2>
+    <table>
+      <tr><th>Distro</th><th>Description</th><th>ISO</th></tr>
+      <tr><td>FlareVM</td><td>Reverse Windows (VM)</td><td>❌</td></tr>
+      <tr><td>REMnux</td><td>Analyse malware Linux</td><td>❌</td></tr>
+      <tr><td>Security Onion</td><td>IDS/NSM/SIEM</td><td><a href="https://securityonion.net/">ISO</a></td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>💾 5. BIOS/UEFI & Test Matériel</h2>
+    <table>
+      <tr><th>Outil</th><th>Description</th><th>ISO</th></tr>
+      <tr><td>MemTest86+</td><td>Test RAM</td><td><a href="https://memtest.org/">ISO</a></td></tr>
+      <tr><td>HDD Regenerator</td><td>Secteurs HDD défectueux</td><td>—</td></tr>
+      <tr><td>Ultimate Boot CD</td><td>Outils DOS diagnostic</td><td><a href="https://www.ultimatebootcd.com/">ISO</a></td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>📁 Organisation Ventoy recommandée</h2>
+    <pre style="background:#111;padding:1rem;overflow:auto;color:#0f0;">
+/
+├── kali-linux.iso
+├── tsurugi-linux.iso
+├── parrot-security.iso
+├── blackarch.iso
+├── caine.iso
+├── tails.iso
+├── whonix-gateway.iso
+├── whonix-workstation.iso
+├── hiren.iso
+├── systemrescue.iso
+├── gparted.iso
+├── memtest86.iso
+└── ventoy.json
+    </pre>
+  </div>
+
+  <div class="section">
+    <h2>🎯 Aller plus loin ?</h2>
+    <p>
+      🎨 Thème Ventoy personnalisé <strong>"trhacknon"</strong><br>
+      📂 Tri ISO : /iso/pentest/, /iso/rescue/<br>
+      🧪 Créer un ISO CTF bootable<br>
+      🔄 Menus Ventoy dynamiques (VTOY_TREE_VIEW_MENU)
+    </p>
+    <a class="btn" href="tsurugi.html">🚀 Voir la page spéciale Tsurugi »</a>
+    <a class="btn" href="others.html">🛡 some others OS</a>
+  </div>
+
+  <footer>
+    ✨ Design by <strong>trhacknon</strong> — 2025
+  </footer>
+</body>
+</html>

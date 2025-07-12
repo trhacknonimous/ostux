@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🛠️ Tsurugi Linux - by trhacknon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Share Tech Mono', monospace;
+      background-color: #0f0f0f;
+      color: #00ffcc;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #00ffcc, #007777);
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+      text-shadow: 0 0 5px #00ffcc;
+    }
+    h2 {
+      color: #00ffaa;
+      border-left: 5px solid #00ffaa;
+      padding-left: 10px;
+      margin-top: 2rem;
+    }
+    .section {
+      padding: 1rem;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    p, ul {
+      margin-left: 1rem;
+    }
+    img {
+      max-width: 90%;
+      margin: 1rem auto;
+      display: block;
+      border: 2px solid #00ffaa55;
+      box-shadow: 0 0 10px #00ffaa44;
+    }
+    .ascii {
+      white-space: pre-wrap;
+      background: #101010;
+      padding: 1rem;
+      border: 1px dashed #00ffaa44;
+      color: #00ffaa;
+      margin: 1rem;
+      font-size: 0.85rem;
+      text-align: center;
+    }
+    a {
+      color: #00ffcc;
+      text-decoration: underline;
+    }
+    .btn {
+      display: inline-block;
+      background: #00ffaa33;
+      padding: 0.5rem 1rem;
+      border: 1px solid #00ffaa88;
+      margin: 1rem;
+      cursor: pointer;
+      color: #00ffaa;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #00ffaa66;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #00ffcc66;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(10px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🛠️ Tsurugi Linux - Analyse Forensic & Pentest - by <strong>trhacknon</strong>
+  </header>
+
+  <div class="section">
+    <h2>🔍 Qu'est-ce que Tsurugi Linux ?</h2>
+    <p>
+      <strong>Tsurugi Linux</strong> est une distribution basée sur Ubuntu, spécialisée dans le domaine du <strong>forensic numérique</strong>, de la <strong>cybercriminalistique</strong> et des <strong>enquêtes numériques</strong>.
+    </p>
+    <ul>
+      <li>Interface graphique moderne, légère et stylée</li>
+      <li>Outils d'investigation, OSINT, mémoire, réseaux, disques</li>
+      <li>Disponible en version Desktop et VirtualBox</li>
+    </ul>
+    <img src="https://tsurugi-linux.org/images/desktop.png" alt="Screenshot Tsurugi Linux">
+  </div>
+
+  <div class="section">
+    <h2>📦 Outils intégrés</h2>
+    <ul>
+      <li>Autopsy, Sleuthkit, Volatility</li>
+      <li>Wireshark, NetworkMiner</li>
+      <li>ExifTool, Binwalk, Foremost</li>
+      <li>Maltego, Spiderfoot, Osintgram</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🚀 Lien de téléchargement</h2>
+    <p>
+      📥 Site officiel : <a href="https://tsurugi-linux.org/downloads.html" target="_blank">https://tsurugi-linux.org</a>
+    </p>
+    <p>
+      💿 ISO direct : <a href="https://tsurugi-linux.org/downloads.html#desktop" target="_blank">Tsurugi Desktop ISO</a>
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>💡 Conseils Ventoy</h2>
+    <pre style="background:#111;padding:1rem;overflow:auto;color:#0f0;">
+/iso/
+├── tsurugi-linux.iso
+├── kali-linux.iso
+└── parrot.iso
+    </pre>
+    <p>
+      Activez <code>VTOY_DEFAULT_SEARCH_ROOT</code> et <code>VTOY_TREE_VIEW_MENU</code> dans <code>ventoy.json</code>
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>🎨 Personnalisation</h2>
+    <p>
+      Ajoutez un fond "digital" ou ASCII animé au menu Ventoy avec thème personnalisé signé <strong>trhacknon</strong>. <br>
+      Astuce : utilisez le logo Tsurugi comme fond pour la ligne dédiée.
+    </p>
+  </div>
+
+  <div class="section ascii">
+    ░████████╗░██████╗██╗░░░░░░█████╗░░██████╗░██╗░░░██╗
+    ╚══██╔══╝██╔════╝██║░░░░░██╔══██╗██╔════╝░██║░░░██║
+    ░░░██║░░░╚█████╗░██║░░░░░███████║██║░░██╗░██║░░░██║
+    ░░░██║░░░░╚═══██╗██║░░░░░██╔══██║██║░░╚██╗██║░░░██║
+    ░░░██║░░░██████╔╝███████╗██║░░██║╚██████╔╝╚██████╔╝
+    ░░░╚═╝░░░╚═════╝░╚══════╝╚═╝░░╚═╝░╚═════╝░░╚═════╝░
+  </div>
+
+  <div class="section" style="text-align: center;">
+    <a class="btn" href="index.html">⬅️ Retour au toolkit principal</a>
+    <a class="btn" href="others.html">🛡 some others OS</a>
+  </div>
+
+  <footer>
+    🔎 Page dédiée à Tsurugi — by <strong>trhacknon</strong> — 2025
+  </footer>
+</body>
+</html>
