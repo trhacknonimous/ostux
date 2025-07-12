@@ -1,0 +1,10 @@
+# trhacknon theme Ventoy
+set theme_mode=GUI
+set background=/theme/trhacknon/background.png
+set labelcolor=green
+set border_color=cyan
+set font_color=green
+set menu_color_normal=green/black
+set menu_color_highlight=black/green
+set menu_font_size=20
+set gfxfont="Unifont Regular 16"
