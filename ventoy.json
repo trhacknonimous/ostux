@@ -1,0 +1,16 @@
+{
+  "theme": {
+    "file": "/theme/trhacknon/ventoy_theme.txt",
+    "gfxmode": "1920x1080",
+    "display_mode": "GUI",
+    "ventoy_left": "5%",
+    "ventoy_top": "85%",
+    "ventoy_color": "#00ff00",
+    "theme_color": "#00ff00",
+    "font_color": "#00ff00",
+    "select_color": "#ff00ff",
+    "border_color": "#00ffcc",
+    "menu_font_size": 20,
+    "autosel_timeout": 10
+  }
+}
